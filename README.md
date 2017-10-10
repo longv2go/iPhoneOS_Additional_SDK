@@ -14,6 +14,28 @@ iPhoneOS Additional SDK
 
 # 使用
 
-首先关闭已经打开的 Xcode，然后在任意打开一个工程，切换到 Build Setting 面板，在 BaseSDK 下拉框中就会出现已经添加的新的 sdk 了，如下图。
+安装的所有 sdk 可以使用 xcodebuild 打印出来，如下
+```
+git:(master) ✗ xcodebuild -showsdks
+iOS SDKs:
+  iOS additional 11.0             -sdk iphoneos.additional11.0
+  iOS 11.0                        -sdk iphoneos11.0
 
-![xxx]()
+iOS Simulator SDKs:
+  Simulator - iOS 11.0            -sdk iphonesimulator11.0
+
+macOS SDKs:
+
+......
+
+```
+
+关闭已经打开的 Xcode，然后在任意打开一个工程，切换到 Build Setting 面板，在 Additional SDKs 条目中添加新的 sdk，参数就是上面的命令中 ’-sdk‘ 后面的字符串，如下图
+
+![img](https://github.com/longv2go/iPhoneOS_Additional_SDK/raw/master/images/basesdk.png)
+
+
+
+
+
+
