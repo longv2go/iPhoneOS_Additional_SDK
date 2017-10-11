@@ -34,7 +34,7 @@
  *
  * XXX                           /!\ WARNING /!\                           XXX
  */
-#error "these internals are not for general use outside of libsystem"
+//#error "these internals are not for general use outside of libsystem"
 #else
 
 #ifndef __OS_EXPOSE_INTERNALS_INDIRECT__
