@@ -25,15 +25,16 @@ iOS Simulator SDKs:
   Simulator - iOS 11.0            -sdk iphonesimulator11.0
 
 macOS SDKs:
-
 ......
-
 ```
 
 关闭已经打开的 Xcode，然后在任意打开一个工程，切换到 Build Setting 面板，在 Additional SDKs 条目中添加新的 sdk，参数就是上面的命令中 ’-sdk‘ 后面的字符串，如下图
 
 ![img](https://github.com/longv2go/iPhoneOS_Additional_SDK/raw/master/images/basesdk.png)
 
+
+# 备注
+iPhoneOS11.0.additional.sdk 是基于 [macos-1013](https://opensource.apple.com/release/macos-1013.html) 构建的。
 
 
 
