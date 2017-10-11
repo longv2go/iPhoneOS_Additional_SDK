@@ -38,6 +38,10 @@
 
 #include <libkern/OSBase.h>
 
+#include "OSAtomicDeprecated.h"
+//#include "OSSpinLockDeprecated.h"
+#include "OSAtomicQueue.h"
+
 #if defined(__cplusplus)
 extern "C" {
 #endif
